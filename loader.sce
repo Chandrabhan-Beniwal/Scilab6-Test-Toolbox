@@ -11,7 +11,7 @@ catch
     msg = msprintf(msg, func, nline, errmsg)
     lines(oldlines)
     mode(oldmode);
-    clear oldlines oldmode tmp nline func
+    clear oldlines oldmode tmp nline func;
     error(msg);
 end
 lines(oldlines);
