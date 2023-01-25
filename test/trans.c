@@ -1,4 +1,7 @@
 #include<stdio.h>
+#include "stack-c.h"
+#include "Scierror.h"
+#include "localization.h"
 
 int transpose(int n, int m, int A[][100], int t[][100])
 {
@@ -10,5 +13,6 @@ int transpose(int n, int m, int A[][100], int t[][100])
            t[i][j]=A[j][i];
         }
     }
+    
 }
 

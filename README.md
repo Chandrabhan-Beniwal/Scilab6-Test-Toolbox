@@ -7,10 +7,7 @@ This toolbox overall demonstrates:
 
 1. A C function that computes transpose of a nxm matrix with file named as “trans.c”.
 
-2. A main file to call the C function.
+2. This C function can be called from scilab
 
-3. A shell script with a series of commands to compile and execute the “trans.c” and “main.c” file. 
-
-4. Folder named “test” inside the repository containing “trans.c” file , “main.c”  and working shell script file inside it.
-
+3. Folder named “test” inside the repository containing “trans.c” file.
 
